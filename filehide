@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+#Coded By Zero
+$file=$ARGV[1];
+if( $ARGV[0] eq '-h' || $ARGV[0] eq '--help' || $ARGV[0] eq '') {
+print "Usage: filehide -m <RarFile> <ImgFile> <out>\n\n";
+print "Usage: filehide -t <ImgFile>\n\n";
+print "Usage: filehide -x <ImgFile>\n\n";
+print "Ex: https://github.com/YSpoof/filehide\n";
+exit; }
+if($ARGV[0] eq '-t') {
+system("unrar l $file"); }
+if($ARGV[0] eq '-x') {
+system("unrar x $file "); }
+if($ARGV[0] eq '-m') {
+$file1=$ARGV[1];
+$file2=$ARGV[2];
+$out=$ARGV[3];
+system("cat $file1 $file2 > $out"); }
