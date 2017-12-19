@@ -9,11 +9,11 @@ Para ajuda
 
 root@ZBox:~# filehide -h
 
-Usage: filehide -m "<RarFile> <ImgFile> <out>"
+Usage: filehide -m RarFile ImgFile out
 
-Usage: filehide -t "<ImgFile>"
+Usage: filehide -t ImgFile
 
-Usage: filehide -x "<ImgFile>"
+Usage: filehide -x ImgFile
 
 Criar arquivo:
 
