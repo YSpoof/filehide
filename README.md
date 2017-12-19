@@ -7,13 +7,7 @@ Para ajuda
 
 ./filehide -h
 
-root@ZBox:~# filehide -h
-
-Usage: filehide -m RarFile ImgFile out
-
-Usage: filehide -t ImgFile
-
-Usage: filehide -x ImgFile
+http://i.imgur.com/KWZzf9u.png
 
 Criar arquivo:
 
